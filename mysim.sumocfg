@@ -1,0 +1,23 @@
+<configuration>
+    <input>
+        <net-file value="mynetwork.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+    </input>
+    
+    <time>
+        <begin value="0"/>
+        <end value="100"/> <!-- اختصر المدة لـ 100 ثانية للاختبار -->
+        <step-length value="0.1"/>
+    </time>
+    
+    <processing>
+        <fast-mode value="true"/>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="-1"/> <!-- تعطيل الانتقال الفوري -->
+    </processing>
+    
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="false"/>
+    </report>
+</configuration>

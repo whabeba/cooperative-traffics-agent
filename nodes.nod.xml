@@ -1,0 +1,12 @@
+<nodes>
+    <!-- الجهة الغربية -->
+    <node id="1" x="-100" y="0" type="priority"/>
+    <!-- مركز التقاطع -->
+    <node id="2" x="0" y="0" type="traffic_light"/>
+    <!-- الجهة الشرقية -->
+    <node id="3" x="100" y="0" type="priority"/>
+    <!-- الجهة الشمالية -->
+    <node id="4" x="0" y="100" type="priority"/>
+    <!-- الجهة الجنوبية -->
+    <node id="5" x="0" y="-100" type="priority"/>
+</nodes>
